@@ -4,29 +4,27 @@ import styles from "./About.module.css";
 export default function About() {
   return (
     <section className={styles.container} id='about'>
-        <h2 className={styles.title}>About</h2>
+        <h2 className={styles.title}>Qui suis-je?</h2>
         <div className={styles.content}>
             <img src='assets/about/aboutimage.png' alt='Me sitting on with a laptop' className={styles.aboutImage}/>
             <ul className={styles.aboutItems}>
                 <li className={styles.aboutItem}>
-                    <img src="assets/about/cursoricon.png" alt="Cursor icon"  />
                     <div className={styles.aboutItemText}>
-                        <h3>Frontend Developer</h3>
-                        <p>I'm a Frontend Developer with experience in building and optimized sites</p>
+                        <h3>💻 Développement Frontend avec :</h3><br />
+                        <p>Je conçois des interfaces simples, performantes et réactives avec des technologies comme :
+HTML,CSS (avec Tailwind CSS),JavaScript & React.js</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
-                    <img src="assets/about/servericon.png" alt="Server icon" />
                     <div className={styles.aboutItemText}>
-                        <h3>Back end Developer</h3>
-                        <p>I have experience in Backend and Apis</p>
+                        <h3>🛠️ Gestion de contenu avec :</h3>
+                        <p>WordPress (Création de sites vitrines & blogs personnalisés),Elementor & WooCommerce</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
-                    <img src="assets/about/uiicon.png" alt="ui icon" />
                     <div className={styles.aboutItemText}>
-                        <h3>UI Designer</h3>
-                        <p> I have designed multiple landing pages </p>
+                        <h3>⚙️ IT Support :</h3>
+                        <p> Assistance technique (Windows & MacOS),Configuration réseau,Diagnostic matériel & logiciel, Microsoft 365 </p>
                     </div>
                 </li>
             </ul>

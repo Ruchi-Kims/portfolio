@@ -20,6 +20,7 @@
 }
 
 .title{
+    margin-top: 3%;
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 33px;
@@ -30,12 +31,14 @@
 }
 
 .description{
+    margin-top: 6%;
     font-size: 30px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
 }
 
 .contactBtns{
+    margin-top: 15%;
     text-decoration: none;
     background-color: var(--color-primary);
     color: var(--color-text);
@@ -47,7 +50,10 @@
 }
 
 .heroImage{
-    width: 50%;
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 3%;
     z-index: 1;
     animation-name: floating;
     animation-duration: 3s;

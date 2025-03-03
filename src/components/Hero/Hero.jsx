@@ -5,11 +5,12 @@ function Hero() {
   return (
     <section className={styles.container}>
     <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Kims</h1>
-        <p className={styles.description}>I'm a full-stack developper and working in NodeJs, React Js and more...</p>
+        <h1 className={styles.title}>Hello, je suis Ruchi</h1>
+        <p className={styles.description}>Je développe des applications web pour rendre vos idées réelles.
+        Mon objectif est de concevoir des interfaces modernes avec une expérience utilisateur agréable.</p>
         <a href="mailto:ruchikimpolo@gmail.com" className={styles.contactBtns}>Contact Me</a>
     </div>
-    <img src='/assets/hero/heromage.png' alt='Hero img' className={styles.heroImage} />
+    <img src='/assets/hero/imageProfil.jpeg' alt='Hero img' className={styles.heroImage} />
     <div className={styles.topBlur} />
     <div className={styles.bottomBlur} />
 
