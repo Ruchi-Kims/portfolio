@@ -1,10 +1,8 @@
 [
   { "title": "HTML", "imageSrc": "/assets/skills/html.png" },
   { "title": "CSS", "imageSrc": "/assets/skills/css.png" },
+  { "title": "Javascript", "imageSrc": "/assets/skills/java-script.png" },
   { "title": "React", "imageSrc": "/assets/skills/react.png" },
-  { "title": "Node", "imageSrc": "/assets/skills/node.png" },
-  { "title": "GraphQL", "imageSrc": "/assets/skills/graphql.png" },
-  { "title": "MongoDB", "imageSrc": "/assets/skills/mongodb.png" },
-  { "title": "Figma", "imageSrc": "/assets/skills/figma.png" }
-  
+  { "title": "Wordpress", "imageSrc": "/assets/skills/wordpress.png" },
+  { "title": "Elementor", "imageSrc": "/assets/skills/elementor.png" }
 ]
