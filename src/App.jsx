@@ -5,6 +5,8 @@ import About from './components/About/About.jsx';
 import { Experience } from './components/Experience/Experience.jsx';
 import Projects from './components/Projects/Projects.jsx';
 import Contact from './components/Contact/Contact.jsx';
+import Copyright from './components/Copyright/Copyright.jsx';
+
 
 function App() {
   
@@ -17,6 +19,9 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
+      <Copyright />
+      
+
 
     </div>
   )

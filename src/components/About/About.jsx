@@ -10,20 +10,20 @@ export default function About() {
             <ul className={styles.aboutItems}>
                 <li className={styles.aboutItem}>
                     <div className={styles.aboutItemText}>
-                        <h3>💻 Développement Frontend avec :</h3><br />
+                        <h3>💻 Développeur Frontend avec :</h3><br />
                         <p>Je conçois des interfaces simples, performantes et réactives avec des technologies comme :
 HTML,CSS (avec Tailwind CSS),JavaScript & React.js</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <div className={styles.aboutItemText}>
-                        <h3>🛠️ Gestion de contenu avec :</h3>
+                        <h3>🛠️ Gestionnaire de contenu avec :</h3><br />
                         <p>WordPress (Création de sites vitrines & blogs personnalisés),Elementor & WooCommerce</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <div className={styles.aboutItemText}>
-                        <h3>⚙️ IT Support :</h3>
+                        <h3>⚙️ IT Support :</h3><br />
                         <p> Assistance technique (Windows & MacOS),Configuration réseau,Diagnostic matériel & logiciel, Microsoft 365 </p>
                     </div>
                 </li>

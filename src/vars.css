@@ -7,6 +7,9 @@
     --color-bg: #04152d;
 
     --font-roboto: "Roboto";
+    --font-lato: "Lato"; /* Fine, moderne et polyvalente */
+    --font-montserrat: "Montserrat"; /* Élégante avec des variantes très fines */
+    --font-open-sans: "Open Sans";
 }
 
 /*Fonts*/

@@ -21,10 +21,10 @@
 
 .title{
     margin-top: 3%;
-    font-size: 72px;
+    font-size: 4rem;
     font-weight: 900;
     margin-bottom: 33px;
-    font-family: var(--font-roboto);
+    font-family: var(--font-lato);
     background: linear-gradient(90deg, rgba(255,255,255,1)70%, rgba(255,255,255,0)120%);
     color: black;
     
@@ -32,8 +32,9 @@
 
 .description{
     margin-top: 6%;
-    font-size: 30px;
-    font-family: var(--font-roboto);
+    font-family: var(--font-lato);
+    font-weight: 300;
+    font-size: 1.5rem;
     margin-bottom: 52px;
 }
 
@@ -42,11 +43,18 @@
     text-decoration: none;
     background-color: var(--color-primary);
     color: var(--color-text);
+    font-family: var(--font-lato);
     border-radius: 100px;
-    font-size: 30px;
-    font-weight: 600;
-    padding: 17px 26px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 10px 20px;
     box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.contactBtns:hover{
+    background-color: var(--color-dark);
+    transform: scale(1.1);
 }
 
 .heroImage{
@@ -60,6 +68,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+
 
 @keyframes floating{
     0%{
@@ -105,5 +114,21 @@
     }
     .content{
         align-items: center;
+    }
+    .title{
+    font-size: 3rem;
+    font-weight: 500;
+    }
+    .description{
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin-bottom: 52px;
+    text-align: center;
+    }
+
+    .contactBtns{
+    margin-top: 5%;
+    font-size: 1.5rem;
+    font-weight: 400;
     }
 }

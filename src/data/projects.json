@@ -1,23 +1,23 @@
 [
     {
-      "title": "Project A",
+      "title": "TaskManager-Pro",
       "imageSrc": "/assets/projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "source": "https://www.github.com"
+      "description": "Une application de gestion de tâches au quotien.",
+      "skills": ["HTML","Tailwind CSS","Javascript","React js"],
+      "source": "https://github.com/Ruchi-Kims/TaskManager-Pro"
     },
     {
-      "title": "Project B",
+      "title": "Restaurant Maiz",
       "imageSrc": "/assets/projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "source": "https://www.github.com"
+      "description": "Restaurant de niveau superieur.",
+      "skills": ["HTML","CSS","Javascript"],
+      "source": "https://github.com/Ruchi-Kims/Maiz-Project_by_me"
     },
     {
-      "title": "Project C",
+      "title": "RK_Resto",
       "imageSrc": "/assets/projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "source": "https://www.github.com"
+      "description": "Mini site web d'un restaurant.",
+      "skills": ["HTML","CSS"],
+      "source": "https://github.com/Ruchi-Kims/RK_Resto"
     }
   ]
