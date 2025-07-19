@@ -4,7 +4,7 @@
       "imageSrc": "/assets/projects/project.png",
       "description": "Une application de gestion de tâches au quotien.",
       "skills": ["HTML","Tailwind CSS","Javascript","React js"],
-      "source": "https://github.com/Ruchi-Kims/TaskManager-Pro"
+      "source": "https://task-manager-pro-alpha.vercel.app/"
     },
     {
       "title": "Restaurant Maiz",

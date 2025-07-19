@@ -10,7 +10,7 @@ function Hero() {
         Mon objectif est de concevoir des interfaces modernes avec une expérience utilisateur agréable.</p>
         <a href="mailto:ruchikimpolo@gmail.com" className={styles.contactBtns}>Contact Me</a>
     </div>
-    <img src='/assets/hero/imageProfil.jpeg' alt='Hero img' className={styles.heroImage} />
+   <img src='/assets/hero/imageProfil.jpeg' alt='Hero img' className={styles.heroImage} />
     <div className={styles.topBlur} />
     <div className={styles.bottomBlur} />
 

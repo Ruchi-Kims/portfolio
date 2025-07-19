@@ -22,12 +22,10 @@
 .title{
     margin-top: 3%;
     font-size: 4rem;
-    font-weight: 900;
+    font-weight: bold;
     margin-bottom: 33px;
     font-family: var(--font-lato);
-    background: linear-gradient(90deg, rgba(255,255,255,1)70%, rgba(255,255,255,0)120%);
-    color: black;
-    
+    color: whitesmoke;
 }
 
 .description{
@@ -116,12 +114,12 @@
         align-items: center;
     }
     .title{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     }
     .description{
     font-weight: 200;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 52px;
     text-align: center;
     }
