@@ -15,16 +15,16 @@ export const Navbar = () => {
             <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} 
             onClick={() => setMenuOpen(false)}>
                 <li>
-                    <a href="#about">About</a>
+                    <a href="#about">A Propos</a>
                 </li>
                 <li>
-                    <a href="#experience">Experience</a>
+                    <a href="#experience">Experiences</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="#projects">Projets</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact">Contactez-moi</a>
                 </li>
             </ul>
         </div>

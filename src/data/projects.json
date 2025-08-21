@@ -2,7 +2,7 @@
     {
       "title": "TaskManager-Pro",
       "imageSrc": "/assets/projects/project.png",
-      "description": "Une application de gestion de tâches au quotien.",
+      "description": "Une application de gestion de tâches au quotidien.",
       "skills": ["HTML","Tailwind CSS","Javascript","React js"],
       "source": "https://task-manager-pro-alpha.vercel.app/"
     },
