@@ -4,5 +4,6 @@
   { "title": "Javascript", "imageSrc": "/assets/skills/java-script.png" },
   { "title": "React", "imageSrc": "/assets/skills/react.png" },
   { "title": "Wordpress", "imageSrc": "/assets/skills/wordpress.png" },
-  { "title": "Elementor", "imageSrc": "/assets/skills/elementor.png" }
+  { "title": "Elementor", "imageSrc": "/assets/skills/elementor.png" },
+  { "title": "Github", "imageSrc": "/assets/skills/github.png" }
 ]

@@ -29,7 +29,7 @@
 }
 
 .description{
-    margin-top: 6%;
+    margin-top: 4%;
     font-family: var(--font-lato);
     font-weight: 300;
     font-size: 1.5rem;
@@ -37,7 +37,7 @@
 }
 
 .contactBtns{
-    margin-top: 15%;
+    margin-top: 8%;
     text-decoration: none;
     background-color: var(--color-primary);
     color: var(--color-text);

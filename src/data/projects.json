@@ -4,20 +4,23 @@
       "imageSrc": "/assets/projects/project.png",
       "description": "Une application de gestion de tâches au quotidien.",
       "skills": ["HTML","Tailwind CSS","Javascript","React js"],
-      "source": "https://task-manager-pro-alpha.vercel.app/"
+      "source": "https://task-manager-pro-alpha.vercel.app/",
+      "github": "https://github.com/Ruchi-Kims/TaskManager-Pro"
     },
     {
       "title": "Restaurant Maiz",
       "imageSrc": "/assets/projects/project.png",
       "description": "Restaurant de niveau superieur.",
       "skills": ["HTML","CSS","Javascript"],
-      "source": "https://github.com/Ruchi-Kims/Maiz-Project_by_me"
+      "source": "#",
+      "github": "https://github.com/Ruchi-Kims/Maiz-Project_by_me"
     },
     {
       "title": "RK_Resto",
       "imageSrc": "/assets/projects/project.png",
       "description": "Mini site web d'un restaurant.",
       "skills": ["HTML","CSS"],
-      "source": "https://github.com/Ruchi-Kims/RK_Resto"
+      "source": "#",
+      "github": "ttps://github.com/Ruchi-Kims/RK_Resto"
     }
   ]

@@ -20,7 +20,6 @@ export default function Contact() {
     
       const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formData);
         alert('Votre message a été envoyé !');
         setFormData({
           firstName: '',

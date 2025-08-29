@@ -20,6 +20,14 @@
     font-family: var(--font-lato);
 }
 
+.description{
+    margin-top: 4%;
+    font-family: var(--font-lato);
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 52px;
+}
+
 .content{
     display: flex;
     flex-direction: row;

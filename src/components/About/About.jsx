@@ -5,6 +5,9 @@ export default function About() {
   return (
     <section className={styles.container} id='about'>
         <h2 className={styles.title}>Qui suis-je?</h2>
+        <p className={styles.description}>Développeur frontend passionné et spécialiste IT avec une expertise dans la création d'interfaces utilisateur réactives et intuitives. 
+                Je combine compétences techniques et sens du design pour produire des expériences web exceptionnelles. <br />
+                Polyvalent, je propose également un support technique complet pour particuliers et professionnels.</p>
         <div className={styles.content}>
             <img src='assets/about/aboutimage.png' alt='Me sitting on with a laptop' className={styles.aboutImage}/>
             <ul className={styles.aboutItems}>
