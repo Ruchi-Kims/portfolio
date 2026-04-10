@@ -1,0 +1,18 @@
+{
+  "formations": [
+    {
+      "ecole": "Licence Professionnelle en Génie Logiciel",
+      "periode": "2022 — 2023",
+      "details": "Spécialisation en développement et intégration de solutions logicielles."
+    },
+    {
+      "ecole": "École d'Ingénieur, EIGSI Casablanca",
+      "periode": "2016 — 2020",
+      "details": "Sciences de l'ingénieur"
+    }
+  ],
+  "certifications": [
+    { "titre": "Responsive Web Design, freeCodeCamp", "date": "2024" },
+    { "titre": "Networking Basics, Cisco", "date": "2025" }
+  ]
+}

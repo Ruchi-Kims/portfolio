@@ -217,6 +217,103 @@
     font-family: var(--font-lato);
 }
 
+.educationSection {
+    margin-top: 60px;
+    display: flex;
+    gap: 48px;
+    border-top: 1px solid rgba(87, 108, 188, 0.15);
+    padding-top: 40px;
+}
+
+.eduBlock { flex: 1.5; }
+.certBlock { flex: 1; }
+
+.eduItem {
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 15px;
+    border-radius: 12px;
+    border-left: 3px solid var(--color-primary);
+}
+
+.eduHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.eduTitle {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--color-text);
+}
+
+.eduDate {
+    font-size: 12px;
+    color: var(--color-primary);
+}
+
+.eduDesc {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Certifications */
+.certGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.certItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(87, 108, 188, 0.05);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.certIcon { font-size: 20px; }
+.certTitle { font-size: 13px; font-weight: 500; }
+.certDate { font-size: 11px; color: rgba(255, 255, 255, 0.3); }
+
+.cvDownloadWrapper {
+    margin-top: 25px; /* Espace après les certifications */
+    display: flex;
+    justify-content: flex-start; /* Aligné à gauche comme le reste */
+}
+
+.cvButton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 24px;
+    background-color: var(--color-primary); /* Ton bleu principal */
+    color: white;
+    text-decoration: none;
+    border-radius: 50px; /* Style bouton arrondi */
+    font-weight: 600;
+    font-family: var(--font-montserrat); /* Ou ta police de boutons */
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 15px rgba(87, 108, 220, 0.2); /* Légère ombre bleue */
+}
+
+.cvIcon {
+    font-size: 16px;
+}
+
+/* Effets de survol */
+.cvButton:hover {
+    background-color: transparent;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    transform: translateY(-3px) scale(1.03); /* Petit effet de mouvement */
+    box-shadow: 0 8px 25px rgba(87, 108, 220, 0.3); /* Ombre plus forte */
+}
+
 @media screen and (max-width: 830px) {
     .container {
         padding: 60px 6%;
@@ -229,4 +326,19 @@
     .skills { grid-template-columns: 1fr 1fr; }
     .cardHeader { flex-direction: column; gap: 6px; }
     .cardDate { align-self: flex-start; }
+
+    .educationSection {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .cvDownloadWrapper {
+        justify-content: center; /* Centré sur mobile pour l'esthétique */
+        margin-top: 20px;
+    }
+    
+    .cvButton {
+        width: 100%; /* Prend toute la largeur sur mobile */
+        justify-content: center;
+    }
 }

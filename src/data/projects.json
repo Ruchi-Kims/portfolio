@@ -1,26 +1,50 @@
 [
-    {
-      "title": "TaskManager-Pro",
-      "imageSrc": "/assets/projects/capture.png",
-      "description": "Une application de gestion de tâches au quotidien.",
-      "skills": ["HTML","Tailwind CSS","Javascript","React js"],
-      "source": "https://task-manager-pro-alpha.vercel.app/",
-      "github": "https://github.com/Ruchi-Kims/TaskManager-Pro"
-    },
-    {
-      "title": "Restaurant Maiz",
-      "imageSrc": "/assets/projects/project.png",
-      "description": "Restaurant de niveau superieur.",
-      "skills": ["HTML","CSS","Javascript"],
-      "source": "#",
-      "github": "https://github.com/Ruchi-Kims/Maiz-Project_by_me"
-    },
-    {
-      "title": "RK_Resto",
-      "imageSrc": "/assets/projects/project.png",
-      "description": "Mini site web d'un restaurant.",
-      "skills": ["HTML","CSS"],
-      "source": "#",
-      "github": "ttps://github.com/Ruchi-Kims/RK_Resto"
-    }
-  ]
+  {
+    "title": "TaskManager-Pro",
+    "imageSrc": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=600&auto=format&fit=crop",
+    "description": "Application web de productivité avancée dédiée à l'organisation et au suivi dynamique des tâches, avec gestion d'état complexe et persistance.",
+    "skills": ["React JS", "Tailwind CSS", "Hooks", "Vercel API"],
+    "source": "https://task-manager-pro-alpha.vercel.app/",
+    "github": "https://github.com/Ruchi-Kims/TaskManager-Pro"
+  },
+  {
+    "title": "Restaurant Maiz",
+    "imageSrc": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=600&auto=format&fit=crop",
+    "description": "Interface vitrine haut de gamme pour un restaurant gastronomique, axée sur l'expérience utilisateur (UI/UX) et l'optimisation à la conversion.",
+    "skills": ["HTML5", "CSS3 ES6", "Responsive Design"],
+    "source": "#",
+    "github": "https://github.com/Ruchi-Kims/Maiz-Project_by_me"
+  },
+  {
+    "title": "RK_Resto",
+    "imageSrc": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=600&auto=format&fit=crop",
+    "description": "Plateforme web de présentation pour un service de restauration rapide, mettant en avant le menu et la localisation.",
+    "skills": ["HTML5", "CSS3 Grid & Flexbox"],
+    "source": "#",
+    "github": "https://github.com/Ruchi-Kims/RK_Resto"
+  },
+  {
+    "title": "RK_Resto",
+    "imageSrc": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=600&auto=format&fit=crop",
+    "description": "Plateforme web de présentation pour un service de restauration rapide, mettant en avant le menu et la localisation.",
+    "skills": ["HTML5", "CSS3 Grid & Flexbox"],
+    "source": "#",
+    "github": "https://github.com/Ruchi-Kims/RK_Resto"
+  },
+  {
+    "title": "RK_Resto",
+    "imageSrc": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=600&auto=format&fit=crop",
+    "description": "Plateforme web de présentation pour un service de restauration rapide, mettant en avant le menu et la localisation.",
+    "skills": ["HTML5", "CSS3 Grid & Flexbox"],
+    "source": "#",
+    "github": "https://github.com/Ruchi-Kims/RK_Resto"
+  },
+  {
+    "title": "RK_Resto",
+    "imageSrc": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=600&auto=format&fit=crop",
+    "description": "Plateforme web de présentation pour un service de restauration rapide, mettant en avant le menu et la localisation.",
+    "skills": ["HTML5", "CSS3 Grid & Flexbox"],
+    "source": "#",
+    "github": "https://github.com/Ruchi-Kims/RK_Resto"
+  }
+]

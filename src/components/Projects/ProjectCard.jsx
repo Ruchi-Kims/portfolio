@@ -13,8 +13,14 @@ export const ProjectCard = ({project : {title, imageSrc, description, skills, so
                         })}
                     </ul>
                     <div className={styles.links}>
-                        <a href={source} target='blank' className={styles.link}>Source </a>
-                        <a href={github} target='blank' className={styles.link}>Github </a>
+                        
+                        <a href={source} target='_blank' rel="noopener noreferrer" className={`${styles.link} ${styles.linkSource}`}>
+                            Démo Live
+                        </a>
+                        <a href={github} target='_blank' rel="noopener noreferrer" className={`${styles.link} ${styles.linkGithub}`}>
+                            <img src="/assets/nav/githubIcon.png" alt="" className={styles.iconGithub} />
+                            Github
+                        </a>
                     </div>
     </div>
   )

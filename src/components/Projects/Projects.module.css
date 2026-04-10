@@ -1,37 +1,80 @@
 @import "../../vars.css";
 
-.container{
+/* -- LE FOND ROUGE PLEINE LARGEUR -- */
+.fullWidthBackground {
+    width: 100%;
+    background: linear-gradient(135deg, #0d1b2e 0%, #1a1a2e 100%); /* Ton rouge (tu peux utiliser un code hex plus précis) */
+    padding-top: 76px;    /* On déplace le margin-top ici pour le fond */
+    padding-bottom: 76px; /* Ajoute du rouge en bas pour l'équilibre */
+}
+
+.container {
     color: var(--color-text);
-    margin-top: 76px;
+    /* On enlève le margin-top car il est géré par le padding du parent */
     margin-left: 10%;
     margin-right: 10%;
-}
-
-.title{
-    color: var(--color-text);
-    font-size: 3rem;
-    font-weight: 700;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
-    font-family: var(--font-lato);
-}
-
-.Projects{
-    margin-top: 37px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    width: 100%;
+    flex-direction: column;
+    align-items: flex-start; 
 }
 
-@media screen and  (max-width: 830px){
+/* -- LE RESTE DU CODE RESTE IDENTIQUE -- */
 
-    .title{
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 400;
-    }
+.header {
+    margin-bottom: 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subtitleWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 25px;
+    height: 2px;
+    background-color: #576cdc; 
+}
+
+.subtitle {
+    font-family: var(--font-montserrat);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #576cdc; 
+}
+
+.title {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: var(--font-lato);
+    line-height: 1.1;
+}
+
+.titleHighlight {
+    color: #add8e6; 
+}
+
+.description {
+    font-family: var(--font-lato);
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--color-text);
+    opacity: 0.8; /* Légèrement plus opaque sur fond rouge pour la lisibilité */
+}
+
+.projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 30px;
+    width: 100%;
+    margin-top: 20px;
 }

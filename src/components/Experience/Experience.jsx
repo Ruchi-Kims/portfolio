@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
 import styles from './Experience.module.css';
-import skills from "../../data/skills.json"
-import history from "../../data/history.json"
+import skills from "../../data/skills.json";
+import history from "../../data/history.json";
+import education from "../../data/education.json"; // Importation propre ici
 
 const icons = {
   "HTML": "🌐",
@@ -11,27 +12,31 @@ const icons = {
   "Wordpress": "🔷",
   "Elementor": "🛠️",
   "Github": "🐙"
-}
+};
 
 const historyIcons = {
   "Freelance": "💻",
   "Itechia": "⚙️",
   "SpeedTarif": "📞"
-}
+};
 
 export const Experience = () => {
   return (
     <section className={styles.container} id='experience'>
-
+      
+      {/* --- HEADER DE LA SECTION --- */}
       <div className={styles.tag}>
         <div className={styles.tagLine}></div>
         Mon parcours
       </div>
-      <h2 className={styles.title}>Compétences & <span className={styles.highlight}>Expériences</span></h2>
-      <p className={styles.subtitle}>Technologies maîtrisées et expériences professionnelles</p>
+      <h2 className={styles.title}>
+        Compétences & <span className={styles.highlight}>Expériences</span>
+      </h2>
+      <p className={styles.subtitle}>Technologies maîtrisées et parcours professionnel</p>
 
+      {/* --- SECTION COMPÉTENCES ET HISTORIQUE --- */}
       <div className={styles.content}>
-
+        
         <div className={styles.left}>
           <p className={styles.sectionLabel}>Technologies</p>
           <div className={styles.skills}>
@@ -72,8 +77,56 @@ export const Experience = () => {
             ))}
           </div>
         </div>
+      </div>
 
+      {/* --- SECTION FORMATIONS, CERTIFICATIONS ET CV (Via JSON) --- */}
+      <div className={styles.educationSection}>
+        
+        <div className={styles.eduBlock}>
+          <p className={styles.sectionLabel}>Formations</p>
+          <div className={styles.eduList}>
+            {education.formations.map((edu, id) => (
+              <div key={id} className={styles.eduItem}>
+                <div className={styles.eduHeader}>
+                  <span className={styles.eduTitle}>{edu.ecole}</span>
+                  <span className={styles.eduDate}>{edu.periode}</span>
+                </div>
+                <p className={styles.eduDesc}>{edu.details}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className={styles.certBlock}>
+          <p className={styles.sectionLabel}>Certifications</p>
+          <div className={styles.certGrid}>
+            {education.certifications.map((cert, id) => (
+              <div key={id} className={styles.certItem}>
+                <span className={styles.certIcon}>📜</span>
+                <div>
+                  <div className={styles.certTitle}>{cert.titre}</div>
+                  <div className={styles.certDate}>{cert.date}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* --- NOUVEAU : BOUTON TÉLÉCHARGER LE CV --- */}
+          <div className={styles.cvDownloadWrapper}>
+            <a 
+              href="/CV_Ruchi_Kimpolo.pdf" 
+              download="CV_Ruchi_Kimpolo.pdf" 
+              className={styles.cvButton}
+              title="Télécharger mon CV complet (PDF)"
+            >
+              <span className={styles.cvIcon}>📄</span>
+              Télécharger mon CV
+            </a>
+          </div>
+          {/* ---------------------------------------- */}
+        </div>
+        
       </div>
     </section>
-  )
-}
+  );
+};
