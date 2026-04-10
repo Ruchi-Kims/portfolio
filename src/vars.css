@@ -1,16 +1,12 @@
-:root{
-    /*colors*/
+:root {
     --color-text: #fff;
     --color-primary: #576cbc;
     --color-secondary: #19376d;
     --color-dark: #0b2447;
     --color-bg: #04152d;
 
-    --font-roboto: "Roboto";
-    --font-lato: "Lato"; /* Fine, moderne et polyvalente */
-    --font-montserrat: "Montserrat"; /* Élégante avec des variantes très fines */
-    --font-open-sans: "Open Sans";
+    --font-roboto: "Roboto", sans-serif;
+    --font-lato: "Lato", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
 }
-
-/*Fonts*/
-
