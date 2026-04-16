@@ -51,7 +51,7 @@ function Hero() {
 
       </div>
 
-      <img src='/assets/hero/imageProfil.jpeg' alt='Ruchi Kimpolo' className={styles.heroImage} />
+      <img src='/assets/hero/ia-image.png' alt='Ruchi Kimpolo' className={styles.heroImage} />
 
       <div className={styles.scrollIndicator}>
         <span className={styles.scrollText}>Scroll</span>

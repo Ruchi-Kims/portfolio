@@ -16,12 +16,12 @@
       "imageSrc": "/assets/history/it.png"
     },
     {
-      "role": "Telemarketeur",
+      "role": "Gestionnaire Front & Back office",
       "organisation": "SpeedTarif",
       "startDate": "Fev, 2021",
       "endDate": "Jul, 2022",
       "experiences": [
-        "Telemarketing & Prospection",
+        "Gestion des reclamations clients",
         "Fidélisation clients"
       ],
       "imageSrc": "/assets/history/telemarketing.png"
