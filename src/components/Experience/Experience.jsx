@@ -24,7 +24,7 @@ export const Experience = () => {
   return (
     <section className={styles.container} id='experience'>
       
-      {/* --- HEADER DE LA SECTION --- */}
+     
       <div className={styles.tag}>
         <div className={styles.tagLine}></div>
         Mon parcours
@@ -34,7 +34,7 @@ export const Experience = () => {
       </h2>
       <p className={styles.subtitle}>Technologies maîtrisées et parcours professionnel</p>
 
-      {/* --- SECTION COMPÉTENCES ET HISTORIQUE --- */}
+   
       <div className={styles.content}>
         
         <div className={styles.left}>
@@ -79,7 +79,7 @@ export const Experience = () => {
         </div>
       </div>
 
-      {/* --- SECTION FORMATIONS, CERTIFICATIONS ET CV (Via JSON) --- */}
+    
       <div className={styles.educationSection}>
         
         <div className={styles.eduBlock}>
@@ -114,16 +114,15 @@ export const Experience = () => {
           {/* --- NOUVEAU : BOUTON TÉLÉCHARGER LE CV --- */}
           <div className={styles.cvDownloadWrapper}>
             <a 
-              href="/CV_Ruchi_Kimpolo.pdf" 
-              download="CV_Ruchi_Kimpolo.pdf" 
+              href="/CV_Ruchi_K.pdf" 
+              download="CV_Ruchi_K.pdf" 
               className={styles.cvButton}
-              title="Télécharger mon CV complet (PDF)"
+              title="Télécharger mon CV complet (PDF"
             >
               <span className={styles.cvIcon}>📄</span>
               Télécharger mon CV
             </a>
           </div>
-          {/* ---------------------------------------- */}
         </div>
         
       </div>
