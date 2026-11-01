@@ -1,22 +1,22 @@
 [
   {
-    "title": "TaskManager-Pro",
-    "imageSrc": "/assets/projects/task-pro.png",
-    "description": "Application web de productivité avancée dédiée à l'organisation et au suivi dynamique des tâches, avec gestion d'état complexe et persistance.",
-    "skills": ["React JS", "Tailwind CSS", "Hooks", "Vercel API"],
-    "source": "https://task-manager-pro-alpha.vercel.app/",
-    "github": "https://github.com/Ruchi-Kims/TaskManager-Pro"
+    "title": "InfinityCreation",
+    "imageSrc": "/assets/projects/infinity.png",
+    "description": "Agence d'ingénierie de lots techniques de batiments & création de sites web, spécialisée dans la conception et le développement de solutions numériques innovantes.",
+    "skills": ["Next JS", "Tailwind CSS", "Hooks", "Responsive Design", "Vercel API"],
+    "source": "https://www.infinitycreation-tech.com/",
+    "github": "https://github.com/Ruchi-Kims/infinity-creation"
   },
   {
-    "title": "Massage-services",
-    "imageSrc": "./assets/projects/massage-site.png",
-    "description": "Conception et développement d'une interface web moderne et immersive pour un salon de massage professionnel",
-    "skills": ["React JS", "Tailwind CSS", "Responsive Design", "React Router", "Vite"],
-    "source": "https://web-massage-seven.vercel.app/",
-    "github": "https://github.com/Ruchi-Kims/web-massage"
+    "title": "TES, Solutions d'Ingénierie Technologique",
+    "imageSrc": "./assets/projects/tes-site.jpeg",
+    "description": "TES est une plateforme de création des sites web, câblage des bâtiments, moderniser le fonctionnement des entreprises et conseiller les personnes qui les lancent.",
+    "skills": ["Next JS", "Tailwind CSS", "Responsive Design", "React Router", "Vercel API"],
+    "source": "https://www.tes-consulting.com/",
+    "github": "https://github.com/Ruchi-Kims/Tes-website"
   },
   {
-    "title": "Assiette-Restaurant",
+    "title": "Assiette-Restaurant (En cours)",
     "imageSrc": "/assets/projects/assiette-restaurant.png",
     "description": "Site web de présentation pour un service de restauration de qualité, mettant en avant le menu, la localisation & les services.",
     "skills": ["Next JS", "Tailwind CSS", "Responsive Design"],
